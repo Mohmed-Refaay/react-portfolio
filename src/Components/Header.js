@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { ReactComponent as Upwork } from "./white-upwork.svg";
+import "./style.css";
 class Header extends Component {
   render() {
     if (this.props.data) {
@@ -66,9 +67,9 @@ class Header extends Component {
             <hr />
             <ul className="social">
               {networks}
-              <li>
+              <li className="upwork-Link">
                 <a href="https://www.upwork.com/freelancers/~01c232f69a1e510d22">
-                  <Upwork width={"30px"} fill={"#fffff"} />
+                  <Upwork/>
                 </a>
               </li>
             </ul>

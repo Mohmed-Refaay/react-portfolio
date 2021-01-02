@@ -1,0 +1,35 @@
+.upwork-Link svg {
+    width: 36px;
+    transform: translateY(7.5px);
+}
+.upwork-Link svg:hover {
+    fill: #11ABB0;
+}
+
+.upwork-footer {
+    width: 22px;
+    
+}
+
+
+@media only screen and (max-width: 767px) {
+    .upwork-Link svg {
+        width: 33px;
+        transform: translateY(7.4px);
+    }
+    .upwork-footer {
+        width: 17px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .upwork-Link svg {
+        width: 29px;
+        transform: translateY(7.4px);
+    }
+    .upwork-footer {
+        width: 16px;
+        transform: translateY(1px);
+    }
+}
+
+

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { ReactComponent as Upwork } from "./upwork-tile.svg";
-
+import "./style.css";
 class Footer extends Component {
   render() {
     if (this.props.data) {
@@ -21,9 +21,9 @@ class Footer extends Component {
           <div className="twelve columns">
             <ul className="social-links">
               {networks}
-              <li>
+              <li className="upwork-footer">
                 <a href="https://www.upwork.com/freelancers/~01c232f69a1e510d22">
-                  <Upwork width={"20px"} />
+                  <Upwork  />
                 </a>
               </li>
             </ul>
